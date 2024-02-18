@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penguin World</title>
+</head>
+<body>
+  <header>
+    <h1>All About Penguins!</h1>
+    <h2>Your Daily Penguin is: The Emperor Penguin!</h2>
+  </header>
+  <main>
+    <section id="penguin-facts">
+      <p id="penguin-fact">Loading...</p>
+    <script src="penguin.js"></script>
+    </section>
+    <section id="penguin-picture">
+      <img src="penguin.jpg" alt="A cute penguin">
+    </section>
+  </main>
+  <footer>
+    <p>Created by Gerald Li and Mengyang Yu</p>
+  </footer>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 2em;
+}
+
+header {
+  background-color: #003366;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+header h2 {
+  color: #ffffff;
+  font-size: 1rem;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+#penguin-picture img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #003366;
+  padding: 1px;
+  border-radius: 10px;
+  margin-top: 2em;
+  text-align: center;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+footer a {
+  color: #00aeef;
+  text-decoration: none;
+}
+</style>
+</body>
+</html>
